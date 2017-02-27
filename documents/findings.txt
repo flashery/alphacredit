@@ -1,0 +1,30 @@
+Charge word found in table:
+account_fees
+groups
+members_pending_charge
+permisions
+service_clients_chargeback_payment_types
+sms_logs
+transaction_fees
+transfers
+translation_messages
+
+Withdrawal word found in table:
+account_types
+alerts
+invoices
+messages
+
+Loan word found in table:
+accounts
+account_types
+alerts
+
+Loan Query
+SELECT 
+    loans.total_amount, members_loans.loan_id, members_loans.member_id
+FROM
+    loans
+        INNER JOIN
+    members_loans ON loans.id = members_loans.loan_id
+LIMIT 0 , 1000

@@ -1,0 +1,53 @@
+Changes on cyclos admin
+==============================
+Added new currency called "Test"
+
+Database data needed for now
+=============================
+Users Table:
+subclass
+salt
+username
+password
+
+Members Table:
+subclass
+name
+creation_date
+email
+
+Address query
+SELECT * FROM `custom_field_values` WHERE `member_id` = 5 ORDER BY field_id;
+
+Important Query
+ALTER TABLE users AUTO_INCREMENT = 403
+
+
+Criteria to Call the Variables
+user=Alphacredit
+password=Xtr@Dcoded4u
+mobile=254720444980,254774444980
+senderid=ALPHACREDIT
+message=kujaribu aacount ya credit
+unicode=0
+schedule=yyyy:mm:dd:hh:mm:ss
+
+Paybill number: 836318
+Paybill Variables:
+id
+orig
+dest
+tstamp
+text
+customer_id
+user
+pass
+routemethod_id
+routemethod_name
+mpesa_code
+mpesa_acc
+mpesa_msisdn
+mpesa_trx_date
+mpesa_trx_time
+mpesa_amt
+mpesa_sender

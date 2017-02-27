@@ -1,0 +1,5 @@
+login name: admin
+password:      Xtr@Dcoded4u
+http://alphacre.jvmhost.net/cyclos/do/login
+
+Select Acess using login name
